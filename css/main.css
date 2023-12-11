@@ -1,25 +1,21 @@
-
 body{
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(126, 128, 223);
 }
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-</style>
-
-.container{
+.container1{
     width: 100%;
     height: 100vh;
-
 }
 
 .navbar{
     height: 12%;
     display: flex;
-    align-items: center;
+    align-items:center;
     padding-left: 3%;
     padding-right: 10%;
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(83, 83, 83);
 }
 
 .logo{
@@ -29,13 +25,15 @@ body{
 
 .nav{
     flex: 1;
-    text-align: right;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 10px;
 }
 
 .navbar ul li a{
@@ -43,33 +41,32 @@ body{
     color: #f6f6f6 ;
 }
 
-.k1{
-    font-size: 50px;
-    font-family: 'Oswald', sans-serif;
+.navn {
+    color: #f6f6f6;
+    font-family: "Oswald", sans-serif;  
+    font-size: 70px;
+    margin-right: 41rem;
 }
-.k2{
+.nav ul .navn {
+    display: flex;
+    justify-content: left;
+}
+
+.k1 {
+    font-family: "Oswald", sans-serif;  
+    font-size: 70px;
+}
+.k2 {
     font-size: 25px;
+    font-family: sans-serif;
+    margin-right: 1rem;
+}
+.k3{
+    font-size: 25px;
+    font-family: sans-serif;
 }
 
-
-
-
-
-
-
-
-/*wgvwe*/
-
-.gif {
+.image{
     display: block;
     margin: auto;
-}
-
-
-
-
-
-
-@media screen {
-    
 }
