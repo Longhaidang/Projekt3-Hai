@@ -1,5 +1,6 @@
+
 body{
-    background-color: rgb(126, 128, 223);
+    background-color: rgb(0, 0, 0);
 }
 
 .container1{
@@ -7,33 +8,27 @@ body{
     height: 100vh;
 }
 
-.navbar{
+.navbar {
     height: 12%;
     display: flex;
-    align-items:center;
-    padding-left: 3%;
-    padding-right: 10%;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    background-color: rgb(83, 83, 83);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 2%;
+    background-color: rgb(0, 0, 0);
 }
 
 .logo{
     width: 140px;
-    cursor: pointer;
 }
 
 .nav{
-    flex: 1;
-    text-align: left;
     display: flex;
     justify-content: space-between;
 }
 
-.navbar ul li{
+.navbar ul li {
     list-style: none;
     display: inline-block;
-    margin-left: 10px;
 }
 
 .navbar ul li a{
@@ -41,32 +36,32 @@ body{
     color: #f6f6f6 ;
 }
 
-.navn {
-    color: #f6f6f6;
-    font-family: "Oswald", sans-serif;  
-    font-size: 70px;
-    margin-right: 41rem;
-}
 .nav ul .navn {
     display: flex;
     justify-content: left;
 }
 
-.k1 {
-    font-family: "Oswald", sans-serif;  
+.navn {
+    color: #f6f6f6;
+    font-family: "Oswald", sans-serif;
     font-size: 70px;
-}
-.k2 {
-    font-size: 25px;
-    font-family: sans-serif;
-    margin-right: 1rem;
-}
-.k3{
-    font-size: 25px;
-    font-family: sans-serif;
+    margin-left: 5rem;
 }
 
-.image{
-    display: block;
-    margin: auto;
+.k2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-right: 
+}
+.k3{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+/*banner*/
+
+.banner {
+    display: flex;
+    justify-content: center;
 }
