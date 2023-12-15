@@ -47,7 +47,8 @@ body {
 
 .navn {
     color: #f6f6f6;
-    font-family: "Oswald", sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
     font-size: 70px;
     margin-left: 3rem;
 }
@@ -64,9 +65,7 @@ body {
     margin-right: 25px;
 }
 
-
-/*banner*/
-
+                                                                        /*banner*/
 
 .banner {
     display: flex;
@@ -74,15 +73,14 @@ body {
     margin-bottom: 4rem;
 }
 
-
-/*projekt navn*/
-
+                                                                    /*projekt navn*/
 
 .projekter {
     color: #f6f6f6;
     font-size: 30px;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    font-weight: 500;
     display: flex;
     justify-content: center;
     margin-bottom: 8rem;
@@ -110,16 +108,16 @@ body {
 }
 
 
-/*galleri*/
-
+                                                                /*galleri*/
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Oswald', sans-serif;
     width: 100%;
     min-height: 100vh;
+    overflow-x: hidden;
+
 }
 
 .wrapper {
@@ -135,11 +133,13 @@ body {
 .content h2 {
     font-size: 30px;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    margin-bottom: 15px;    
+    font-family: 'Oswald', sans-serif;
 }
 
 .content p {
     line-height: 1.5;
+    font-family: 'Nanum Gothic Coding', monospace;
 }
 
 .main-content {
@@ -199,7 +199,46 @@ body {
     right: 0;
 }
 
-/*footer*/
+                                                                /*billede af mig*/
+
+.midt {
+    margin-top: 3rem;
+    max-width: 85rem;
+}
+
+.alindhold {
+    display: flex;
+    justify-content: center;
+    column-gap: 7rem;
+    margin-left: 18rem;
+    padding-bottom: 4%;
+}
+
+
+
+.indhold2 h2 {
+    color: #f6f6f6;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.indhold2 p {
+    color: #f6f6f6;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+                                                                     /*footer*/
 
 .container2 {
     max-width: 80rem;
@@ -230,7 +269,8 @@ body {
 .footer-col h2{
     font-size: 30px;
     color: black;
-    font-family: "Oswald", sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
     text-transform: capitalize;
     margin-bottom: 25px;
     position: relative;
@@ -244,7 +284,7 @@ body {
     font-size: 60px;
 }
 
-.kon {
+.kon  {
     display: flex;
     margin-left: 40px;
 }
